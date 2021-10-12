@@ -1,8 +1,57 @@
 *{
     margin: 0;
     padding: 0;
+    border: 0;
+}
+body{
+   background:rebeccapurple ;
+}
+@font-face {
+    font-family: 'Fullmetal';
+    src: url(font/Staubach.ttf) format('truetype');
 }
 #Header{
-    background: red;
+    background: rgb(236, 197, 197);
     text-align: center;
+}
+#margin{
+    margin: 0;
+}
+.parallax{
+    background: url(img/Fullmental.gif);
+    background-attachment: fixed;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+#parallax-inner{
+    padding-top: 50%;
+    padding-bottom: 50%;
+}
+#parallax-inner >h1{
+    text-align: center;
+    font-size: 400%;
+    margin-top: -30px;
+    color: white;
+    letter-spacing: 10px;
+    font-family: 'Fullmetal';
+}
+.Conte{
+    border: 1px solid black;
+    background: rgb(82, 80, 80);
+    width: 445px;
+    height: 1000px;
+    margin: auto;
+    margin-left: 20px;
+    margin-top: -80px;
+    border-radius: 25px;
+}
+.Conte > h1{
+    text-align: center;
+    font-size: 60px;
+    color: red;
+}
+.Conte > p{
+    color: white;
+    font-size: 20px;
 }
