@@ -11,8 +11,10 @@ body{
     src: url(font/Staubach.ttf) format('truetype');
 }
 #Header{
-    background: rgb(236, 197, 197);
+    background: rgb(255, 0, 0);
     text-align: center;
+    height: 80px;
+    font-size: 40px;
 }
 #margin{
     margin: 0;
@@ -39,11 +41,11 @@ body{
 .Conte{
     border: 1px solid black;
     background: rgb(82, 80, 80);
-    width: 445px;
-    height: 1000px;
+    width: 550px;
+    height: 2000px;
     margin: auto;
-    margin-left: 20px;
-    margin-top: -80px;
+    margin-left: 80px;
+    margin-top: -90px;
     border-radius: 25px;
 }
 .Conte > h1{
@@ -54,4 +56,13 @@ body{
 .Conte > p{
     color: white;
     font-size: 20px;
+    text-align: justify;
+    width: 500px;
+    margin: auto;
+}
+.Conte > img{
+    margin: auto;
+    display: block;
+    width: 300px;
+    height: 450px;
 }
