@@ -66,3 +66,8 @@ body{
     width: 300px;
     height: 450px;
 }
+h2{
+    color: rgb(135, 135, 255);
+    font-size: 22px;
+    text-align: center;
+}
