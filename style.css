@@ -18,7 +18,7 @@ body{
     src: url(font/Staubach.ttf) format('truetype');
 }
 #Header{
-    background: rgb(255, 0, 0);
+    background: transparent;
     text-align: center;
     height: 80px;
     font-size: 40px;
@@ -50,7 +50,7 @@ body{
     border: 1px solid black;
     background: rgb(82, 80, 80);
     width: 550px;
-    height: 4760px;
+    height: 4850px;
     margin: auto;
     margin-left: 100px;
     margin-top: -90px;
